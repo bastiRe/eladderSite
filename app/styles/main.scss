@@ -1,5 +1,4 @@
-// bower:scss
-// endbower
+@import 'bootstrap_custom';
 
 body {
   background: #2D3E4F;
@@ -17,6 +16,10 @@ h3 {
   text-align: center;
 }
 
+.navbar .navbar-brand {
+  color: white;
+}
+
 .hero-icon {
   display: block;
   width: 240px;
@@ -26,10 +29,6 @@ h3 {
 .container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-.content {
-  
 }
 
 
