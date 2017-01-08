@@ -3,6 +3,11 @@
 $main-color: #2d3e4f;
 $text-color: #fff;
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: $main-color;
   color: $text-color;
@@ -20,6 +25,28 @@ h3 {
 
 .navbar .navbar-brand {
   color: $text-color;
+}
+
+.container.page-wrap {
+  min-height: 100%;
+  padding-bottom: 3rem;
+  margin-bottom: -3rem;
+
+  &::after {
+    display: block;
+    content: "";
+  }
+}
+
+.site-footer {
+  height: 3rem;
+  text-align: center;
+  position: relative;
+
+  a {
+    color: $text-color;
+    text-decoration: underline;
+  }
 }
 
 .icon {
@@ -41,4 +68,8 @@ h3 {
 
 .main-teaser {
   margin-top: 8rem;
+}
+
+.embedded {
+  background: $text-color;
 }
