@@ -73,3 +73,13 @@ h3 {
 .embedded {
   background: $text-color;
 }
+
+.appstore-link {
+  display: block;
+  max-width: 140px;
+  margin: 0 auto;
+
+  img {
+    max-width: 100%;
+  }
+}
