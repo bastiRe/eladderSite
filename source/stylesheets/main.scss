@@ -67,8 +67,17 @@ h3 {
 }
 
 .main-teaser {
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
+
+
+@media (min-width: 992px) {
+  .main-teaser {
+    margin-top: 8rem;
+  }
+}
+
+
 
 .embedded {
   background: $text-color;
@@ -77,7 +86,7 @@ h3 {
 .appstore-link {
   display: block;
   max-width: 140px;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
 
   img {
     max-width: 100%;
