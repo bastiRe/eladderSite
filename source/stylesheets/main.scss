@@ -1,7 +1,10 @@
+$main-color: #2EAD97;
+$secondary-color: #f4b40d;
+
+$text-color: #fff;
+$brand-primary: $secondary-color !default;
 @import 'bootstrap_custom';
 
-$main-color: #2EAD97;
-$text-color: #fff;
 
 html,
 body {
@@ -40,6 +43,8 @@ h3 {
 
 .site-footer {
   height: 3rem;
+  width: 100%;
+  display: block;
   text-align: center;
   position: relative;
 
@@ -92,3 +97,4 @@ h3 {
     max-width: 100%;
   }
 }
+
