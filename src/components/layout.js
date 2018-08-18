@@ -10,30 +10,34 @@ import Head from './head'
 
 injectGlobal`
   ${styledNormalize}
+  * {
+    box-sizing: border-box;
+  }
+
   html, body {
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
-    min-height: 100%;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     line-height: 1.5;
     color: #fff;
+  }
 
+  body {
     > div {
-      min-height: 100%;j
-      margin: 0;
+      min-height: 100%;
       height: 100%;
+      margin: 0;
       width: 100%;
       min-width: 100%;
     }
 
     > div > div {
-      
+      min-height: 100%;
       height: 100%;
-      min-height: 100%;j
     }
-  
+
     a {
       color: #fff;
     }
@@ -41,14 +45,17 @@ injectGlobal`
 `
 
 const Background = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background: ${({ theme }) => theme.colors.primary};
-  height: 100%;
+  min-height: 100%;
   width: 100%;
 `
 const Content = Box.extend`
   margin: 0 auto -48px;
   padding-bottom: 48px;
-  height: 100%;
+  min-height: 100%;
 `
 
 const Footer = styled.footer`
