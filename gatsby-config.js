@@ -16,5 +16,11 @@ module.exports = {
         icon: 'src/images/apple-touch-icon.png', // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-iubenda`,
+      options: {
+        documentIds: ['7947842'],
+      },
+    },
   ],
 }
