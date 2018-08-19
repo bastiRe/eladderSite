@@ -60,7 +60,7 @@ class AddLeaguePage extends React.Component {
               eLadder
             </Title>
             <Subtitle fontSize="4"> {leagueTitle} League </Subtitle>
-            <Lead>Add the league to your eLaddder app:</Lead>
+            <Lead>Add the league to your eLadder app:</Lead>
             <Box my={2}>
               <PrimaryButton mx="auto" onClick={this._redirectToEladderApp}>
                 Add {leagueTitle} league
