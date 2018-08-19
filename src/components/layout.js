@@ -70,7 +70,7 @@ const Layout = ({ title = 'eladder', children }) => (
     <Head title={title} />
     <ThemeProvider theme={theme}>
       <Background>
-        <Content width={['100%', '45em', '60em']} px={[4, 0]}>
+        <Content width={['100%', '38em', '50em']} px={[4, 0]}>
           {children}
         </Content>
         <Footer>
