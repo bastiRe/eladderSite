@@ -11,6 +11,7 @@
     "gatsby-plugin-react-helmet": "next",
     "gatsby-source-iubenda": "^1.0.0",
     "grid-styled": "^5.0.2",
+    "polished": "^1.9.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-helmet": "^5.2.0",
@@ -36,6 +37,8 @@
     "eslint-plugin-jest": "^21.21.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^3.1.0",
     "prettier": "^1.14.2"
