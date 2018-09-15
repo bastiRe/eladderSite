@@ -46,7 +46,9 @@ class AddLeaguePage extends React.Component {
       )
       return
     }
-    window.open(`eladder://+leagueId=${leagueId}&${leagueTitle}`)
+    window.open(
+      `eladder://add_league?leagueId=${leagueId}&leagueTitle=${leagueTitle}`
+    )
   }
 
   render() {
